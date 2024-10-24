@@ -1,12 +1,10 @@
 #J-6:
 
-
 num_donat = int(input("Número: "))
-sequencia = num_donat
+divisor = 1
 
-while sequencia != 0:
-    num_donat = int(input("Número: "))
-    x = num_donat % sequencia == 0
+while divisor < num_donat:
     
-    sequencia = sequencia - 1
+    
+
     
