@@ -3,10 +3,12 @@
 char = input("Caràcter: ")
 while not (char == "A" or char == "E" or char == "I" or char == "O" or char == "U" or char == "."):
     char = input("Caràcter: ")
-if char == "A" or char == "E" or char == "I" or char == "O" or char == "U" or char == ".":
-    print("La vocal és ",char)
+if char == ".":
+    print("No hi ha vocals")
 else:
-    print("No hi ha cap vocal")
+    print(char)
+
+   
         
     
     

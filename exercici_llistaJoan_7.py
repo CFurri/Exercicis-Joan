@@ -1,10 +1,13 @@
 #J-7:
 
 nombre = int(input("Nombre: "))
-divisor = nombre
+div = 2
+while nombre%div != 0:
+    div = div + 1
 
-if nombre % divisor == 0 and nombre % 1 == 0:
-    print(nombre)
+if div == nombre:
+    print("És un nombre primer.")
 else:
-    int(input("Nombre: "))
+    print("No és un nombre primer.")
+
     
